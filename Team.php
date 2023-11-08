@@ -52,6 +52,11 @@ private $totalGoals;
     {
         return $this->totalGames;
     }
+
+    public function getGoalAverage()
+    {
+        return $this->totalGoals/$this->totalGames;
+    }
 }
 
 ?>  
